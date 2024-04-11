@@ -6,7 +6,7 @@ class Person {
 	}
 
 	
-	set age(){
+	set age(age){
 		this.age = 10;
 	}
 	get name(){
@@ -16,13 +16,13 @@ class Person {
 
 class Student extends Person {
 	function study(){
-		console.log(`${name} is studying`);
+		console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
 	function teach(){
-		console.log(`${name} is teaching`);
+		console.log(`${this.name} is teaching`);
 	}
 }
 
