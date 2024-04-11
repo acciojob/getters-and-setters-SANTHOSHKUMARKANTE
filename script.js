@@ -8,7 +8,7 @@ class Person {
 	get name(this.name){
 		console.log(this.name)
 	}
-	set name(this.age){
+	set age(this.age){
 		age = 10;
 	}
 }
